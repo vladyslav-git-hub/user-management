@@ -8,6 +8,6 @@ import * as bootstrap from "bootstrap";
 window.bootstrap = bootstrap;
 
 const app = createApp({});
-app.component("TextBlock", TextBlock);
+app.component("TextsBlock", TextBlock);
 app.component("ContactForm", ContactForm);
 app.mount("#app");

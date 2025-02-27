@@ -60,6 +60,11 @@ return [
             'report' => false,
         ],
 
+        'Files' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/Files')
+        ]
+
     ],
 
     /*
